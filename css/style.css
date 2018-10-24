@@ -1,0 +1,86 @@
+        body {
+            background-color: gainsboro;
+        }
+        
+        .textblock{
+            padding: 20px;
+            font-family: arial;
+            font-size: 20px;
+        }
+        #main{
+            margin: 0 auto;
+            background-color:white;
+        }
+        h1, img, nav, #main {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            max-width: 900px;
+        }
+        img{
+            width: 100%;
+        }
+        h1, nav {
+            color:white;
+            box-shadow: 0 0 15px gray;
+            background-color: midnightblue;        
+        } 
+        h3 {
+        font-size: 32px;    
+        }
+        h1, h3{
+            font-family: arial;
+            text-align: center;
+            padding: 10px;
+        }
+        span {
+            font-weight: 600;
+        }
+			/* прибираємо відступи й поля, а також list-style для "ul", 
+			 * та додаємо "position:relative" */
+			nav ul {
+			    padding:0;
+			    margin:0;
+			    list-style: none;
+			    position: relative;
+			    }
+			
+			/* вастосовуємо inline-block позиціонування для елементів меню */
+			nav ul li {
+			    margin: 0px -7px 0 0;
+			    display:inline-block;
+			    background-color: mediumblue;
+			    }
+			
+			/* стиль посилання */
+			nav a {
+                font-family: sans-serif;
+			    display:block;
+			    padding:0 10px;
+			    color: white;
+			    font-size:20px;
+			    line-height: 60px;
+			    text-decoration:none;
+			}
+			
+			/* Псевдоселектор - змінюємо колір при наведенні курсора */
+			nav a:hover {
+			    background-color: #000000;
+		}
+        			nav ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+			
+			/* відображаємо список при наведенні курсора */
+			nav ul li:hover > ul {
+			    display:inherit;
+			}
+			
+			/* Стилізуємо список */
+			nav ul ul li {
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}
