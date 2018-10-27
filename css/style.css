@@ -9,7 +9,7 @@
         }
         #main{
             margin: 0 auto;
-            background-color:white;
+            background-color: white;
         }
         h1, img, nav, #main {
             margin-top: 0px;
@@ -22,7 +22,7 @@
         h1, nav {
             color:white;
             box-shadow: 0 0 15px gray;
-            background-color: midnightblue;        
+            background-color: #000080;        
         } 
         h3 {
         font-size: 32px;    
@@ -32,27 +32,30 @@
             text-align: center;
             padding: 10px;
         }
+        h3+ul {
+            list-style: none;
+        }
         span {
             font-weight: 600;
         }
 			/* прибираємо відступи й поля, а також list-style для "ul", 
 			 * та додаємо "position:relative" */
-			nav ul {
+        nav ul {
 			    padding:0;
 			    margin:0;
 			    list-style: none;
 			    position: relative;
-			    }
+        }
 			
 			/* вастосовуємо inline-block позиціонування для елементів меню */
-			nav ul li {
+		nav ul li {
 			    margin: 0px -7px 0 0;
 			    display:inline-block;
-			    background-color: mediumblue;
+			    background-color: #000080;
 			    }
 			
 			/* стиль посилання */
-			nav a {
+		nav a {
                 font-family: sans-serif;
 			    display:block;
 			    padding:0 10px;
@@ -63,24 +66,43 @@
 			}
 			
 			/* Псевдоселектор - змінюємо колір при наведенні курсора */
-			nav a:hover {
-			    background-color: #000000;
-		}
-        			nav ul ul {
+		nav a:hover {
+			    background-color: #0000CD;
+		    }
+        nav a:active{
+                background-color: #00004B;
+                box-shadow: inset 0px 0px 10px 0px #000000;
+            }
+        nav ul ul {
 			    display: none;
 			    position: absolute;
 			    top: 100%;
 			}
 			
 			/* відображаємо список при наведенні курсора */
-			nav ul li:hover > ul {
+		nav ul li:hover > ul {
 			    display:inherit;
 			}
 			
 			/* Стилізуємо список */
-			nav ul ul li {
+		nav ul ul li {
 			    min-width:170px;
 			    float:none;
 			    display:list-item;
 			    position: relative;
 			}
+p+img:hover, #tileblock > div:hover{
+   -webkit-box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
+box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
+}
+#tileblock{
+    background-color: lightgray;
+}
+#tileblock > div {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 28%;
+}
