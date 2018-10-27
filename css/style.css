@@ -98,7 +98,7 @@
 			    display:list-item;
 			    position: relative;
 			}
-p+img:hover, #tileblock > div:hover .button:hover{
+p+img:hover, #tileblock > div:hover, .button:hover{
    -webkit-box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
 -moz-box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
 box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
