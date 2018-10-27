@@ -53,13 +53,19 @@
 			    display:inline-block;
 			    background-color: #000080;
 			    }
-#scroll, #noscroll { margin-top: 40px; 
+#scroll, #noscroll, #multibg { margin-top: 40px; 
     width:100%;
     height:400px;
     background-image: url(yaak.jpg);
 }
 #noscroll {
     background-attachment: fixed;
+}
+#multibg {
+    background: url(yaak.jpg), url(header.jpg);
+    background-attachment: fixed, scroll;
+        background-position: bottom, top;
+    background-repeat: no-repeat, repeat;
 }
 			/* стиль посилання */
 		nav a {
