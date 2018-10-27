@@ -53,7 +53,14 @@
 			    display:inline-block;
 			    background-color: #000080;
 			    }
-			
+#scroll, #noscroll { margin-top: 40px; 
+    width:100%;
+    height:400px;
+    background-image: url(yaak.jpg);
+}
+#noscroll {
+    background-attachment: fixed;
+}
 			/* стиль посилання */
 		nav a {
                 font-family: sans-serif;
