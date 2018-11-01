@@ -11,7 +11,12 @@
             margin: 0 auto;
             background-color: white;
         }
-        h1, img, nav, #main {
+nav {
+position:fixed;
+top:0px;
+            margin-top: 0px;
+            margin-bottom: 0px;}
+        h1, img, #main {
             margin-top: 0px;
             margin-bottom: 0px;
             max-width: 900px;
