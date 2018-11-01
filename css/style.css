@@ -33,7 +33,7 @@
             padding: 10px;
         }
 	#logo, #logo2 {
-		position: relative;
+		position: absolute;
 
 		width: 200px;
 	}
