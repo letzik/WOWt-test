@@ -44,14 +44,15 @@ top:0px;
         }
 	#logo, #logo2 {
 		position: fixed;
-		bottom: 30px;
-		width: 200px;
+		
 	}
-#logo {
-		left: 30px;
+#logo { top: 5px;
+		right: 150px;
+	height: 40px;
 		}
-#logo2 {
-		right: 30px;
+#logo2 {	top: 0px;
+		right: 0px;
+	height: 60px;
 		}
         h3+ul {
             list-style: none;
