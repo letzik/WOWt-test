@@ -10,9 +10,9 @@
         }
         #main{
                 margin-top: 60px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
             background-color: white;
         }
 header {
@@ -26,7 +26,7 @@ top:0px;
         h1, img, #main {
             margin-top: 0px;
             margin-bottom: 0px;
-            max-width: 900px;
+            /*max-width: 900px;*/
         }
         img{
             width: 100%;
