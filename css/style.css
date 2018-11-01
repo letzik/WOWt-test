@@ -110,6 +110,7 @@ p+img:hover, #tileblock > div:hover, .button:hover{
 box-shadow: 0px 6px 21px 3px rgba(0,0,0,0.48);
 }
 #tileblock{
+    text-align: center;
     background-color: lightgray;
 }
 #tileblock > div ,.button{
