@@ -31,18 +31,19 @@
             font-family: arial;
             text-align: center;
             padding: 10px;
+		
         }
 	#logo, #logo2 {
-		position: absolute;
-
+		position: fixed;
+		bottom: 30px;
 		width: 200px;
 	}
 #logo {
 		left: 30px;
-		top: 30px;}
+		}
 #logo2 {
 		right: 30px;
-		top: 30px;}
+		}
         h3+ul {
             list-style: none;
         }
