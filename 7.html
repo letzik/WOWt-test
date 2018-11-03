@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>7 заняття</title>
+<link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+    .header {
+    text-align: center;
+    padding: 32px;
+}
+        #galleryblock {
+            margin:0;
+        }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}</style>
+    </head>
+<body>
+<nav>
+			    <ul>
+			        <li><a href="#">Головна</a></li>
+			        <li><a href="#">7.1</a>
+        	            <ul>
+			                <li><a href="7/positioning-before.html">Позиціонування (до)</a></li>
+			                <li><a href="7/positioning-after.html">Позиціонування (після)</a></li>
+			            </ul></li>
+                    <li><a href="index.html">4 заняття</a></li>
+                    <li><a href="6.html">5 заняття</a></li>
+                    <li><a href="https:\\brainbasket.org" target="_blank">Brainbasket</a></li>
+			    </ul>
+			</nav>
+    <div id="main">
+    <header>
+            <h1 id="top">7. Flexbox</h1>
+        <img src="css/header.jpg"></header>
+
+        
+<h3>Flexbox-галерея з різними зображеннями</h3>
+ <div id="galleryblock">
+
+<div class="row"> 
+  <div class="column">
+    <img src="css/yaak.jpg" style="width:100%">
+    <img src="css/yaak2.jpg" style="width:100%">
+    <img src="css/header.jpg" style="width:100%">
+    <img src="css/image3.png" style="width:100%">
+    <img src="css/yaak.jpg" style="width:100%">
+    <img src="css/image2.png" style="width:100%">
+    <img src="css/image1.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="css/yaak.jpg" style="width:100%">
+    <img src="css/image2.png" style="width:100%">
+    <img src="css/image1.png" style="width:100%">
+    <img src="css/yaak2.jpg" style="width:100%">
+    <img src="css/header.jpg" style="width:100%">
+    <img src="css/image2.png" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="css/image1.png" style="width:100%">
+    <img src="css/yaak2.jpg" style="width:100%">
+    <img src="css/header.jpg" style="width:100%">
+    <img src="css/header.jpg" style="width:100%">
+    <img src="css/image3.png" style="width:100%">
+    <img src="css/yaak.jpg" style="width:100%">
+    <img src="css/image2.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="css/image3.png" style="width:100%">
+    <img src="css/yaak.jpg" style="width:100%">
+    <img src="css/image2.png" style="width:100%">
+    <img src="css/yaak2.jpg" style="width:100%">
+    <img src="css/header.jpg" style="width:100%">
+    <img src="css/image3.png" style="width:100%">
+  </div>
+</div>
+        </div>
+        <footer><h3>WOW Teachers (м. Конотоп). 2018</h3></footer>
+    </body>
+</html>
