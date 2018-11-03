@@ -19,7 +19,7 @@ header {
 margin-top: 80px;}
 nav {
 	width: 100%;
-position:sticky;
+position:fixed;
 top:0px;
             margin-top: 0px;
             margin-bottom: 0px;}
