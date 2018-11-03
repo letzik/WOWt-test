@@ -97,12 +97,12 @@
         max-width: 100%;
     }
 }
-	.flex-container, .flex-container2, flex-container3 {
+	.flex-container, .flex-container2, {
   display: flex;
   background-color: DodgerBlue;
 }
 
-.flex-container > div, .flex-container2 > div, .flex-container3 > div {
+.flex-container > div, .flex-container2 > div,  {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
@@ -117,15 +117,19 @@
   text-align: center;
   line-height: 75px;
 }
-	.flex-container3 {
+.flex-container3 {
+  display: flex;
   flex-wrap: wrap;
+  background-color: DodgerBlue;
 }
 
 .flex-container3 > div {
+  background-color: #f1f1f1;
   width: 100px;
+  margin: 10px;
   text-align: center;
   line-height: 75px;
-	padding:0;
+  font-size: 30px;
 }
 	.flex-container4 {
   display: flex;
@@ -149,6 +153,35 @@
 
 .flex-container5 > div {
   background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+	.flex-container6 {
+  display: flex;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+}
+
+.flex-container6 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+	.flex-container7 {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container7 > div {
+  background-color: DodgerBlue;
+  color: white;
   width: 100px;
   margin: 10px;
   text-align: center;
@@ -225,6 +258,19 @@
   <div>1</div>
   <div>2</div>
   <div>3</div>  
+</div>
+	    <h3>justify-content: space-around. Елементи розподіляються рівномірно</h3>
+
+<div class="flex-container6">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+	    <h3> flex-grow:число визначає, наскільки швидше елемент буде розширюватися при зміні розміру. В елементів 1 і 2 значення дорівнює 1, в 3 елемента - 8</h3>
+	    <div class="flex-container7">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
 </div>
              <div id="flexblocks">
         <div class="row2">
