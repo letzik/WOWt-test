@@ -125,6 +125,35 @@
   width: 100px;
   text-align: center;
   line-height: 75px;
+	padding:0;
+}
+	.flex-container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container4>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container5 {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container5 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }</style>
     </head>
 <body>
@@ -160,7 +189,7 @@
   <div>2</div>
   <div>3</div>  
 </div>
-	    <h3> Властивість flex-wrap</h3>
+	    <h3> Властивість flex-wrap: wrap</h3>
 	    <div class="flex-container3">
   <div>1</div>
   <div>2</div>
@@ -174,6 +203,28 @@
   <div>10</div>
   <div>11</div>
   <div>12</div>  
+</div>
+	    	    <h3> Властивість flex-wrap: nowrap</h3>
+	    <div class="flex-container4">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
+	    <h3>justify-content: center; вирівнює елементи по центру</h3>
+
+<div class="flex-container5">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
 </div>
              <div id="flexblocks">
         <div class="row2">
