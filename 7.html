@@ -96,6 +96,35 @@
         flex: 100%;
         max-width: 100%;
     }
+}
+	.flex-container, .flex-container2, flex-container3 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div, .flex-container2 > div, .flex-container3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+	.flex-container2 {
+  flex-direction: column;
+}
+
+.flex-container2 > div {
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
+}
+	.flex-container3 {
+  flex-wrap: wrap;
+}
+
+.flex-container3 > div {
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
 }</style>
     </head>
 <body>
@@ -119,7 +148,33 @@
 	    	    <a href="https://brainbasket.org/wow-teachers/"><img id="logo2" src="css/block-WT.png"></a>
 
 
-        
+	    <h3> Flex блоки </h3>
+	    <div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+	    <h3>Властивість flex-direction. Напрямок</h3>
+	 <div class="flex-container2">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+	    <h3> Властивість flex-wrap</h3>
+	    <div class="flex-container3">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
              <div id="flexblocks">
         <div class="row2">
   <div class="side2">
