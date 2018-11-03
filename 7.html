@@ -47,6 +47,55 @@
         flex: 100%;
         max-width: 100%;
     }
+}
+	/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column2 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+        .row2 {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side2 {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main2 {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row2, {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }</style>
     </head>
 <body>
@@ -71,6 +120,34 @@
 
 
         
+             <div id="flexblocks">
+        <div class="row2">
+  <div class="side2">
+      <h3>Про нас</h3>
+      <h5>Фото кабінету:</h5>
+      <div class="fakeimg" ><img src="css/227aud.png" style="width:100%;"></div>
+      <p>Курси WOW Techers від Brainbasket проходять в аудиторії 227 Політехнічного технікуму КУСумДУ</p>
+      <h3>Графік занять</h3>
+      <p>Четвер: 17:00 <br>Неділя: 11:00</p>
+      <div class="fakeimg" style="height:60px;">Зображення</div><br>
+      <div class="fakeimg" style="height:60px;">Зображення</div><br>
+      <div class="fakeimg" style="height:60px;">Зображення</div>
+  </div>
+  <div class="main2">
+      <h3>Flexbox-блоки</h3>
+      <h5>04.11.2017</h5>
+      <div class="fakeimg"><img src="css/yaak.jpg" style="width:100%;"></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;"><img src="css/yaak.jpg"></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+    </div>
 <h3>Flexbox-галерея з різними зображеннями</h3>
  <div id="galleryblock">
 
