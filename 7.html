@@ -187,7 +187,23 @@
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-}</style>
+}
+.flex-container8 {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container8>div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+	</style>
     </head>
 <body>
 <nav>
@@ -271,6 +287,19 @@
   <div style="flex-grow: 1">1</div>
   <div style="flex-grow: 1">2</div>
   <div style="flex-grow: 8">3</div>
+</div>
+	    <h3> flex-shrink:число визначає, наскільки біде змінюватися величина елемента відносно інших. в 3 елемента значення дорівнює 0</h3>
+	    	<div class="flex-container8">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
 </div>
              <div id="flexblocks">
         <div class="row2">
