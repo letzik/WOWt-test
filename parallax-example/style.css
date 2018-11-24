@@ -1,0 +1,32 @@
+html,body 
+{
+	height: 100%;
+}
+
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+    box-shadow: 0px 0px 32px 5px rgba(0,0,0,0.75);
+	height: auto;
+	min-height: 100%;
+	position: relative;
+}
+.parallax-window .pre-title
+{
+	margin-top: 15%;
+	margin-bottom: 20px;
+	color: #eee;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+	text-align:center;
+	font-size: 14px;
+	
+}
+.parallax-window h1 
+{
+	color: #f1f1f1;
+	position: relative;
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 2px;
+}
