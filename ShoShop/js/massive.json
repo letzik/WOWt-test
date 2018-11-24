@@ -1,0 +1,19 @@
+{
+"id": "1",
+"name": "iPhone X 32",
+"image": {
+    url: "/img/img-1.jpg",
+    title: "iphone X 32Gb main page"
+},
+    price: 27513,
+    colors: ['white','gold','black']
+}, {
+"id": "2",
+"name": "Xiaomi Pocophone F1",
+"image": {
+    url: "/img/img-2.jpg",
+    title: "Xiaomi Pocophone F1 64 GB main page"
+},
+    price: 10999,
+    colors: ['black','blue','kevlar']
+}
