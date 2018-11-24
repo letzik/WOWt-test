@@ -1,0 +1,124 @@
+html,body 
+{
+	height: 100%;
+}
+header
+{
+	height: auto;
+	min-height: 100%;
+	position: relative;
+	background-image: url(../images/jumbotron.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+header .navbar-brand
+{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+header .navbar-brand img
+{
+	height: 60px;
+	margin-right: 15px;
+	float: left;
+}
+header .navbar-brand span 
+{
+	text-transform: uppercase;
+	color: #222;
+	height: 60px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #f1f1f1;
+	display: inline-block;
+	margin-top: -4px;
+}
+
+.navbar-toggle
+{
+	margin-top: 15px;
+}
+
+.navbar-header
+{
+	padding-bottom: 20px;
+}
+
+
+
+.navbar-default 
+{
+	background-color: transparent;
+	border:none;
+	border-radius: 0;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+
+.navbar-default .navbar-nav > li > a 
+{
+	font-size: 15px;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	color: #ccc;
+}
+.navbar-default .navbar-nav > li > span 
+{
+	color: #aaa;
+	font-size: 10.5px;
+	padding-left: 15px;
+}
+
+.navbar-default .navbar-nav > li > a.tel 
+{
+	color: #FBBF30;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 768px)
+{
+	.navbar-nav
+	{
+		float: none;
+		text-align: center;
+	}
+}
+
+header .pre-title
+{
+	margin-top: 15%;
+	margin-bottom: 20px;
+	color: #eee;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+	text-align:center;
+	font-size: 14px;
+	
+}
+header h1 
+{
+	color: #f1f1f1;
+	position: relative;
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 2px;
+}
+
+
