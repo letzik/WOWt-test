@@ -1,0 +1,469 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px ;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+
+
+	
+}
+
+h1, h2, h3 {
+	margin: 10px;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: rgba(255,255,255,0.4);
+}
+
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+
+hr {
+	display: none;
+}
+
+.text1
+{
+text-align: center;
+}
+
+#wrapper {
+	background: #FFF;								 /*колір фону*/
+	margin: 0;
+}
+
+.container, .text {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+#header-wrapper
+{
+	background: url(../images/bg.jpg) no-repeat center center;
+	background-size: cover;
+
+	
+}
+
+#header {  /*розмер картинки с верху */
+	overflow: hidden;
+	margin: auto;
+	height: auto;
+}
+
+/*Мобильное меню*/
+#wrapper .mobile_menu{
+	display: none;	
+	border-radius: 4px;
+	padding: 0 20px 0 15px;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	position: absolute;
+	font-size: 50px;
+	top: 0;
+}
+
+#social
+{  /*сылка на  блог */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+#page .col-md-3{transition: all .2s ease-in-out;}
+#page .col-md-3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#social a 
+{
+	color: #4c60c1;
+}
+/* Логотип  */
+#logo {
+	margin: 40px;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1, #logo h1 a {
+	font-weight: 400;
+	letter-spacing: -1px;         /*название сайта */
+	text-transform: lowercase;
+	font-size: 44px;
+	color: #3c6ca1;
+	text-align: center;
+
+}
+
+#logo a {
+	border: none;
+	background: none;				 /*название сайта (цвет сылки)*/
+	text-decoration: none;
+	color: #0b56aa;
+}
+
+#logo h1 span{
+	text-transform: uppercase;
+}
+/* меню */
+
+#menu, .navbar-header {
+	/*overflow: hidden;    /* фон меню */
+	background: #3c6ca1;   
+}
+
+#menu > ul {
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#menu a {
+	line-height: 40px;
+	text-decoration: none;				 /* ЦВЕТ СЫЛОК  меню */
+	text-transform: uppercase;   
+	text-align: center;
+	font-size: 25px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+#header-wrapper .navbar-default .navbar-nav > .active > a {
+        background-color: #3a9e95;
+}
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+    background: #457ebc;
+
+}
+#menu .menu{
+    margin-bottom: 0;
+}
+
+
+#menu .last {
+	border-right: none;
+}
+
+#myFooter .modal .modal-dialog  {
+    width: 85%;
+    margin: 20px auto;
+}
+
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+#page .row {
+    width: 100%;
+    margin: 0 auto;
+}
+#myFooter .modal .modal-dialog .modal-header, #myFooter .modal .modal-dialog p {
+    color: #3c6ca1;
+}
+#myFooter .modal .modal-dialog .modal-header .modal-title{
+display: inline;
+}
+.modal-body img {
+    width: 100%;
+}
+#page .col-md-3{
+	flex-wrap: wrap;
+	height: 100%;
+
+	font-size: 12px;
+}
+
+#page .col-md-3 img{
+	width: 100%;
+}
+
+	#page .title h2
+	{
+		width: 100%;
+		font-size: 1.3em; 		/*параметры шрифта професйи*/
+		font-weight: 400;     
+		color: #3c6ca1;
+	}
+	
+
+	ul.contact li
+	{
+		color: red;
+		display: inline-block;		/*убирает значок списка*/
+		font-size: 1em;
+		
+		
+	}
+	
+	#map 
+	{
+		width: 100%;
+	}
+
+#wrapper #page .col-md-3 img:hover, #menu .menu_item:hover ul{
+    box-shadow: 0px 3px 15px -1px rgba(0,0,0,0.68);
+    transition: .3s;
+}
+#page .row .vpu-col {
+    background: #aec7ef;
+    padding: 20px;
+    margin: 20px;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #3a9e95;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+
+#myFooter {
+    background-color: #8badd2;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #5472a9;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+	margin: 0 0 10px 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a,
+#myFooter div {
+    color: #fff;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #4c6192;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#myFooter .social-networks a {
+    padding: 10px;
+  
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #3c6ca1;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row .col-xs-12 {
+        border-bottom: 1px white solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #menu .menu {
+        flex-direction: column;
+    
+    }
+    #menu .menu_item:hover ul {
+        background: #1f4268;
+    }
+
+    .navbar .navbar-collapse {
+        border-top:0;
+    }
+    .navbar .container {
+        width: 100%;
+    }
+    #logo h1 a {
+    font-size: 24px;
+
+    }
+}
+@media screen and (min-width: 768px){
+    .navbar .navbar-collapse {
+    width: fit-content;
+        padding:0;
+    }
+    #header-wrapper .navbar-default {
+        background: 0;
+        border: 0;
+    }
+    #menu .menu_item:hover ul{
+	opacity: 1;
+	z-index: 9999;
+        max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+
+}
+#menu .menu_item ul {
+  /*      position:absolute;
+    left:0;
+    top:36px;*/
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+    #menu .menu_item ul{
+    opacity: 0.7;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	position: absolute;
+	background: #3c6ca1;
+	z-index: -9999;
+    
+}
+
+
+#menu .menu_item ul > li{
+	list-style: none;
+	border-top: 1px solid rgba(255, 255, 255, .2);
+}
+}
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
